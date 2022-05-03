@@ -1,4 +1,5 @@
 import './App.css';
+import { Board } from './components/Board';
 
 function App() {
     return(
@@ -8,15 +9,17 @@ function App() {
             </header>
             <section>
                 <div className='game'>
+
                     <div className='game__player'>
                         - Player 1
                     </div>
-                    <div className='game__board'>
-                        - Board
-                    </div>
+                    
+                    <Board />
+                    
                     <div className='game__player'>
                         - Player 2
                     </div>
+                    
                 </div>
             </section>
             <footer>
