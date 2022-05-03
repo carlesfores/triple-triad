@@ -7,7 +7,6 @@ function App() {
                 <h1>Triple triad</h1>
             </header>
             <section>
-                <h2> Board </h2>
                 <div className='game'>
                     <div className='game__player'>
                         - Player 1
