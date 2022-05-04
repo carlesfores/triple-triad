@@ -1,5 +1,6 @@
 import './App.css';
-import { Board } from './components/Board';
+import { Board } from './components/Board/Board';
+import { Player } from './components/Player/Player';
 
 function App() {
     return(
@@ -9,17 +10,9 @@ function App() {
             </header>
             <section>
                 <div className='game'>
-
-                    <div className='game__player'>
-                        - Player 1
-                    </div>
-                    
+                    <Player />
                     <Board />
-                    
-                    <div className='game__player'>
-                        - Player 2
-                    </div>
-                    
+                    <Player />
                 </div>
             </section>
             <footer>
